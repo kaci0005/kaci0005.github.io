@@ -1,0 +1,100 @@
+/* general page stayle */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aad4cf;
+    margin: 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+/* header  */
+header {
+position: relative;
+text-align: center;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+/* navigation menu  */
+
+nav {
+    display: flex;
+    background-color: #d4e9e7;
+    padding: 15px 0;
+}
+
+nav a {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-right: 1px solid #999;
+}
+
+nav a:last-child {
+border-right: none;
+}
+article {
+    padding: 20px;
+}
+
+article img {
+    width: 200px;
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+/* Contact form  */
+
+form {
+    border: 1px solid #999;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: #fff8ef;
+    border: 1px solid #ddd;
+}
+
+form textarea {
+    height: 80px;
+}
+
+
+form label:has(input[type="radio"]) {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#facts {
+    clear: both;
+    padding: 0 20px;
+}
